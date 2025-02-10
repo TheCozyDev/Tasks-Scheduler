@@ -14,6 +14,9 @@ void addTask(queue<string>& tasks) {
 }
 
 void displayTasks(queue<string> tasks) {
+    if (tasks.empty()) {
+        cout << "There is no task in the list!\n";
+    }
     while (!tasks.empty()) {
         cout << tasks.front() << endl;
         tasks.pop();
