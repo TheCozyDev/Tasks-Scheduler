@@ -33,9 +33,9 @@ void endTask(queue<string>& tasks) {
 
 void mainScreen(queue<string>& tasks) {
     int option;
-    cout << "===================" << endl;
-    cout << "  Task list v1.0   " << endl;
-    cout << "===================" << "\n\n\n";
+    cout << "========================" << endl;
+    cout << "  Tasks scheduler v1.0   " << endl;
+    cout << "========================" << "\n\n\n";
     cout << "Options:" << endl;
     cout << "[1] Add a task\n" << "[2] Finnish a task\n" << "[3] Show tasks\n" << "[4] Exit\n\n";
     cout << "What would you like to do? ";
