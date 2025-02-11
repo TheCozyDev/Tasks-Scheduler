@@ -9,7 +9,6 @@ void addTask(queue<string>& tasks) {
     string newTask;
     cout << "Enter the desired task: ";
     getline(cin, newTask);
-    cout << newTask;
     tasks.push(newTask);
 }
 
